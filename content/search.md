@@ -1,7 +1,7 @@
 +++
 title = 'Search'
 layout = "search"
-draft = true
+draft = false
 summary = "search"
 placeholder = "search 404"
 +++

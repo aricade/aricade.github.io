@@ -1,7 +1,7 @@
 +++
 title = 'Firs Post'
 date = 2024-10-06T15:08:21-04:00
-draft = true
+draft = false
 tags = ['test']
 +++
 
