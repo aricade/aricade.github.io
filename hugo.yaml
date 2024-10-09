@@ -1,0 +1,72 @@
+baseURL: https://blog.aricade.xyz/
+languageCode: en-us
+title: "404: aricade not found"
+theme: ["PaperMod"]
+
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts
+      weight: 10
+    - identifier: About
+      name: About
+      url: /about
+      weight: 20
+    - identifier: Tags
+      name: Tags
+      url: /tags
+      weight: 30    
+    - identifier: Search
+      name: Search
+      url: /search
+      weight: 40         
+
+params:
+  defaultTheme: dark
+  homeInfoParams:
+    Title: 'But we are working on it...'
+    Content: 'here is my content'
+  label:
+    icon: "/images/arobot.png"
+    iconHeight: 60
+  assets:
+    favicon: "/favicon/favicon.ico" 
+    favicon16x16: "/favicon/favicon-16x16.png"
+    apple_touch_icon: "/favicon/apple-touch-icon.png" 
+    safari_pinned_tab: "/favicon/apple-touch-icon.png" 
+  profileMode:
+    enabled: true
+    title: "404: aricade not found" # optional default will be site title
+    subtitle: "Lost pages in a digital void."
+    imageUrl: "/images/arobot.png" # optional
+    imageTitle: "this is not the droid your are searching for" # optional
+    imageWidth: 480 # custom size
+    imageHeight: 480 # custom size
+    buttons:
+      - name: Posts
+        url: "/posts"
+      - name: About
+        url: "/about"
+      - name: Tags
+        url: "/tags"  
+      - name: Github
+        url: "https://github.com/"
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+  ShowToc: true
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON    
