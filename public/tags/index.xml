@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on 404: aricade not found</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://blog.aricade.xyz/tags/</link>
     <description>Recent content in Tags on 404: aricade not found</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 06 Oct 2024 15:08:21 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.aricade.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>http://localhost:1313/tags/test/</link>
+      <link>https://blog.aricade.xyz/tags/test/</link>
       <pubDate>Sun, 06 Oct 2024 15:08:21 -0400</pubDate>
-      <guid>http://localhost:1313/tags/test/</guid>
+      <guid>https://blog.aricade.xyz/tags/test/</guid>
       <description></description>
     </item>
   </channel>
